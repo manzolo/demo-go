@@ -1,7 +1,9 @@
 # Go Demo
 This is a simple service that print ip, hostname and datetime of server 
 
-[docker image](https://hub.docker.com/r/manzolo/demo-go) usefull to test a [multipass microk8s cluster](https://github.com/manzolo/multipass-microk8s-cluster-demo.git)
+[docker image](https://hub.docker.com/r/manzolo/demo-go) 
+
+Useful to test a [multipass microk8s cluster](https://github.com/manzolo/multipass-microk8s-cluster-demo.git)
 
 ## Example
 ```
