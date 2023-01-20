@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"math/rand"
 	"net"
 	"net/http"
@@ -25,6 +26,7 @@ func main() {
 	gin.SetMode(gin.ReleaseMode)
 	router := gin.Default()
 	router.GET("/", getInfo)
+	fmt.Println("Server start...")
 	router.Run(":8080")
 }
 
