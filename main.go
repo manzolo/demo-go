@@ -22,7 +22,7 @@ type DemoInfo struct {
 // albums slice to seed record album data.
 
 func main() {
-	//gin.SetMode(gin.ReleaseMode)
+	gin.SetMode(gin.ReleaseMode)
 	router := gin.Default()
 	router.GET("/", getInfo)
 	router.Run(":8080")
